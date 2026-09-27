@@ -124,12 +124,12 @@ footer {
     }
 
     .container {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
     header {
-        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
-        padding: 1.5rem;
+        margin: -1rem -1rem 1rem -1rem;
+        padding: 1.25rem;
         font-size: 1.4rem;
     }
 
@@ -139,21 +139,13 @@ footer {
     }
 
     nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav a {
-        text-align: center;
-        border-left: none;
-        border-right: none;
-        border-top: 1px solid rgba(255,255,255,0.08);
-    }
-
-    nav li:first-child a {
-        border-top: none;
+        padding: 0.7rem 0.9rem;
+        font-size: 0.85rem;
     }
 }
