@@ -86,6 +86,10 @@ a:hover {
     color: #365a85;
 }
 
+.smallcaps {
+    font-variant: small-caps;
+}
+
 /* Footer */
 
 footer {
