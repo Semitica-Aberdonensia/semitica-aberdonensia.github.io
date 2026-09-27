@@ -54,7 +54,7 @@ h2 {
 nav {
     background: #4b5563;
     margin-bottom: 2rem;
-    padding: 0.25rem;
+    padding: 1rem;
 }
 
 nav ul {
@@ -64,7 +64,7 @@ nav ul {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 0.25rem;
 }
 
