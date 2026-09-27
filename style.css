@@ -73,6 +73,7 @@ nav a {
     padding: 1rem 1.5rem;
     font-size: 0.95rem;
     letter-spacing: 0.04em;
+    font-variant: small-caps;
 }
 
 nav a:hover {
