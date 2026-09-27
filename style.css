@@ -37,13 +37,16 @@ h1 {
     letter-spacing: 0.12em;
     margin-bottom: 0.2rem;
     font-weight: normal;
+    border-bottom: 3px solid #d1d5db;
 }
 
 h2 {
-    color: #4b5563;              /* granite grey */
+    color: #374151;              /* granite grey */
+    font-variant: small-caps;
     border-bottom: 1px solid #d1d5db;
     padding-bottom: 0.3rem;
     margin-top: 2rem;
+    font-weight: normal;
 }
 
 /* Navigation */
