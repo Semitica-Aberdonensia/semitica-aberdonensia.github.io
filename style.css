@@ -88,9 +88,8 @@ nav li:last-child a {
 }
 
 nav a:hover {
-    background: rgba(30, 58, 95, 0.35);
+    background: #5c6673;
 }
-
 /* Links */
 
 a {
