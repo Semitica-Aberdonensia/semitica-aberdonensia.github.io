@@ -114,3 +114,46 @@ footer {
     font-size: 0.9rem;
     color: #6b7280;
 }
+
+/* Smartphones */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0.5rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    header {
+        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.06em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    nav a {
+        text-align: center;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    nav li:first-child a {
+        border-top: none;
+    }
+}
