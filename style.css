@@ -48,6 +48,19 @@ nav a {
     letter-spacing: 0.05em;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 nav a:hover {
     background: #777777;
 }
